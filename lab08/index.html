@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Gallery - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header>
+    <h1>My Pet Gallery</h1>
+    <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="jpg.html">JPG</a>
+            <a href="png.html">PNG</a>
+            <a href="gif.html">GIF</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            ☰
+
+            </a>
+        </div>
+
+  </header>
+
+  <main>
+    <h2>Welcome to My Pet Gallery!</h2>
+    <p>
+      This website showcases my favorite pets — a dog, cat, fish. 
+      Each page highlights a different image format like JPG, PNG, and GIF, 
+      and explains why it’s best for that type of image.
+    </p>
+
+    <p>
+      Enjoy exploring these amazing animals and learn how simple web design 
+      can make pictures look their best!
+    </p>
+
+    <img src="images/dog.jpg" alt="Happy brown dog">
+    <img src="images/cat.png" alt="Cute gray cat">
+    <img src="images/fish.gif" alt="Goldfish swimming in a bowl">
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Binda - CSIT 121</p>
+  </footer>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
