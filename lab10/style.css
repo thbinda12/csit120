@@ -2,49 +2,50 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f4f8;
+    background-color: #faf5ef; 
     color: #333;
 }
 
 header {
-    background-color: #2a9d8f;
+    background-color: #1f2a44;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: #264653;
-    padding: 12px;
+    background-color: #24324f;
+    padding: 14px;
     text-align: center;
 }
 
 nav a {
-    color: #f4f4f4;
-    margin: 0 12px;
+    color: #ffe8c2;
+    margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
+    padding: 8px 12px;  
+    border-radius: 5px;  
 }
 
 nav a:hover {
-    color: #e9c46a;
-    text-decoration: underline;
+    background-color: #e79f4f; 
+    color: #24324f;           
 }
 
 main {
-    background-color: #ffffff;
-    margin: 20px auto;
-    padding: 25px;
+    background-color: white;
     max-width: 850px;
+    margin: 20px auto;
+    padding: 22px;
     border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 footer {
+    background-color: #1f2a44;
+    color: white;
     text-align: center;
     padding: 15px;
-    background-color: #2a9d8f;
-    color: white;
     margin-top: 20px;
 }
 
@@ -53,11 +54,10 @@ ul {
 }
 
 main a {
-    color: #2a9d8f;
+    color: #e17f37;
     text-decoration: none;
 }
 
 main a:hover {
     text-decoration: underline;
 }
-
