@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #faf5ef; 
+    background-color: #ffe9d6; 
     color: #333;
 }
 
@@ -24,21 +24,22 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
-    padding: 8px 12px;  
-    border-radius: 5px;  
+    padding: 8px 12px;
+    border-radius: 5px;
 }
 
 nav a:hover {
     background-color: #e79f4f; 
-    color: #24324f;           
+    color: #24324f;
 }
 
 main {
-    background-color: white;
+    background-color: #ffffff;
     max-width: 850px;
-    margin: 20px auto;
-    padding: 22px;
-    border-radius: 10px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
 }
 
 footer {
