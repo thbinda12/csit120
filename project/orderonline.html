@@ -1,172 +1,144 @@
-<!DOCTYPE html>
-<html>
+ <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fresh Bakes Menu</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Bakes – Menu</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body>
+    <header>
+        <h1>Our Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="orderonline.html">Menu</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-   <img src="images/FreshBakes.png" alt="Fresh Bakes Logo" class="logo">
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="orderonline.html"><Menu></Menu></a>
-        <a href="catering.html">Catering</a>
-        <a href="about.html">About / Reflection</a>
-    </nav>
-</header>
+    <main>
 
-<main>
+        <p>
+            At Fresh Bakes, our menu is carefully crafted to offer warm, homemade flavors that bring
+            comfort to our community. Every treat is made fresh each morning using local ingredients
+            and small–batch baking methods. From soft cakes to flaky pies and rich cheesecakes, we
+            take pride in creating desserts that feel both familiar and exciting. Whether you're here
+            for a quick bite or shopping for a gathering, our menu has something for everyone.
+        </p>
 
-    <h1>Fresh Bakes Menu</h1>
-    <p>At Fresh Bakes we bring comfort of homemade sweets to your doorsteps with our bakery goods.
-        All items are baked fresh every day.
-        You can order Online! Browse our menu items and choose what you'd like to order from us. </p>
+        <!-- CAKES -->
+        <section>
+            <h2>Cakes</h2>
+            <img src="images/cakes.jpg" alt="Assorted cakes displayed in a bakery case" class="menu-img">
 
-   
-    <h2>Cakes</h2>
-    <img src="images/cakes.jpg" alt="Cakes" width="300">
+            <table class="menu-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
 
-    
-        <tr>
-            <th>Item</th>
-            <th>Price</th>
-            
-        </tr>
-        <tr>
-            <td>Chocolatina Cake</td>
-            <td>$34.99</td>
-            </tr>
-        <tr>
-            <td>Red Velvet Cake</td>
-            <td>$36.99</td>
-             </tr>
-        <tr>
-            <td>Caramel Tres Leches Cake</td>
-            <td>$48.99</td>
-            </tr>
-        <tr>
-            <td>Strawberry Crunch Cake</td>
-            <td>$36.99</td>
-            
-        </tr>
-        <tr>
-            <td>Passion Fruit Cake</td>
-            <td>$30.99</td>
-            </tr>
-    </table>
+                <tbody>
+                    <tr><td>Vanilla Cake</td><td>$12.99</td></tr>
+                    <tr><td>Chocolate Cake</td><td>$14.99</td></tr>
+                    <tr><td>Red Velvet Cake</td><td>$15.99</td></tr>
+                    <tr><td>Carrot Cake</td><td>$13.99</td></tr>
+                    <tr><td>Funfetti Cake</td><td>$12.49</td></tr>
+                </tbody>
+            </table>
+        </section>
 
-   
-    <h2>Pies</h2>
-    <img src="images/pies.jpg" alt="Pies" width="300">
+        <!-- PIES -->
+        <section>
+            <h2>Pies</h2>
+            <img src="images/pies.jpg" alt="Freshly baked pies cooling on a counter" class="menu-img">
 
-    
-        <tr>
-            <th>Item</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>Apple Pie</td>
-            <td>$14.99</td>
-        </tr>
-        <tr>
-            <td>Blueberry Pie</td>
-            <td>$15.99</td>
-        </tr>
-        <tr>
-            <td>Pecan Pie</td>
-            <td>$17.99</td>
-        </tr>
-        <tr>
-            <td>Banana cream Pie</td>
-            <td>$16.99</td>
-        </tr>
-        <tr>
-            <td>Key Lime Pie</td>
-            <td>$16.99</td>
-        </tr>
-        <tr>
-            <td>Oreo CreamPie</td>
-            <td>$15.99</td>
-        </tr>
+            <table class="menu-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
 
-    </table>
+                <tbody>
+                    <tr><td>Apple Pie</td><td>$9.99</td></tr>
+                    <tr><td>Blueberry Pie</td><td>$10.99</td></tr>
+                    <tr><td>Pumpkin Pie</td><td>$11.49</td></tr>
+                    <tr><td>Pecan Pie</td><td>$12.25</td></tr>
+                    <tr><td>Cherry Pie</td><td>$10.75</td></tr>
+                </tbody>
+            </table>
+        </section>
 
-   
-    <h2>Sweet Treats</h2>
-    <img src="images/sweets.jpg" alt="Sweet treats" width="300">
+        <!-- CHEESECAKES -->
+        <section>
+            <h2>Cheesecakes</h2>
+            <img src="images/cheesecake.jpg" alt="Slice of creamy cheesecake on a plate" class="menu-img">
 
-    
-        <tr>
-            <th>Item</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>Chocolate Chip Cookies (6)</td>
-            <td>$5.99</td>
-        </tr>
-        <tr>
-            <td>Brownies (4)</td>
-            <td>$6.99</td>
-        </tr>
-        <tr>
-            <td>Cinnamon Rolls</td>
-            <td>$3.50</td>
-        </tr>
-        <tr>
-            <td>Baklava Slice</td>
-            <td>$3.50</td>
-         </tr>
-         <tr>
-            <td>Cake Pops (5)</td>
-            <td>$8.50</td>
-        </tr>
-    </table>
+            <table class="menu-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
 
-   
-    <h2>Cheesecakes</h2>
-    <img src="images/cheesecake.jpg" alt="Cheesecake" width="300">
+                <tbody>
+                    <tr><td>Classic Cheesecake</td><td>$13.99</td></tr>
+                    <tr><td>Strawberry Cheesecake</td><td>$15.99</td></tr>
+                    <tr><td>Oreo Cheesecake</td><td>$16.49</td></tr>
+                    <tr><td>Blueberry Cheesecake</td><td>$15.25</td></tr>
+                    <tr><td>Caramel Swirl Cheesecake</td><td>$16.99</td></tr>
+                </tbody>
+            </table>
+        </section>
 
-   
-        <tr>
-            <th>Item</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>Classic New York Cheesecake</td>
-            <td>$22.99</td>
-        </tr>
-        <tr>
-            <td>Carrot Cheesecake</td>
-            <td>$23.50</td>
-        </tr>
-        <tr>
-            <td>Nutella Cheesecake</td>
-            <td>$28.50</td>
-        </tr>
-        <tr>
-            <td>Strawberry Swirl Cheesecake</td>
-            <td>$24.99</td>
-        </tr>
-        <tr>
-            <td>Strawberry Cheesecake</td>
-            <td>$30.50</td>
-        </tr>
-        <tr>
-            <td>Chocolate Cheesecake</td>
-            <td>$25.99</td>
-        </tr>
-    </table>
+        <!-- SWEET TREATS -->
+        <section>
+            <h2>Sweet Treats</h2>
+            <img src="images/sweets.jpg" alt="Cookies, brownies, and muffins arranged on trays" class="menu-img">
 
-</main>
+            <table class="menu-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
 
-<footer>
-<p>&copy; 2025 Fresh Bakes Bakery</p>
-</footer>
+                <tbody>
+                    <tr><td>Chocolate Chip Cookies</td><td>$2.99</td></tr>
+                    <tr><td>Brownies</td><td>$3.49</td></tr>
+                    <tr><td>Muffins</td><td>$2.49</td></tr>
+                    <tr><td>Cupcakes</td><td>$3.25</td></tr>
+                    <tr><td>Mini Donuts</td><td>$2.75</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- CUSTOM CAKES -->
+        <section>
+            <h2>Custom Cakes</h2>
+            <img src="images/customcake.jpg" alt="Decorated custom celebration cake" class="menu-img">
+
+            <p>
+                We offer customized cakes for birthdays, weddings, showers, and all types of events.
+                Flavors, designs, colors, and decorations can be personalized to match your theme.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fresh Bakes</p>
+    </footer>
 
 </body>
 </html>
