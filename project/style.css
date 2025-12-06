@@ -1,0 +1,120 @@
+:root {
+    --main: #d87c6c;
+    --light: #fff6f4;
+    --dark: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #ffffff;
+    color: var(--dark);
+}
+
+header {
+    background: var(--light);
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark);
+    margin: 0 10px;
+    padding: 6px 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: var(--main);
+    color: white;
+    border-radius: 4px;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+h1, h2 {
+    color: var(--main);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table img {
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.order-form {
+    max-width: 350px;
+}
+
+.order-form input,
+.order-form textarea,
+.order-form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.order-form button {
+    background: var(--main);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: var(--light);
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.banner-small {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 650px) {
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    table img {
+        width: 65px;
+        height: 65px;
+    }
+
+    main {
+        width: 95%;
+    }
+}
+
