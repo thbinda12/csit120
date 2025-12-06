@@ -1,18 +1,13 @@
-:root {
-    --main: #d87c6c;
-    --light: #fff6f4;
-    --dark: #333;
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background: #ffffff;
-    color: var(--dark);
+    color: #333;
 }
 
+
 header {
-    background: var(--light);
+    background: #fff6f4;
     padding: 15px;
     text-align: center;
 }
@@ -22,19 +17,21 @@ header {
     margin-bottom: 5px;
 }
 
+
 nav a {
     text-decoration: none;
-    color: var(--dark);
+    color: #333;
     margin: 0 10px;
     padding: 6px 10px;
     font-weight: bold;
 }
 
 nav a:hover {
-    background: var(--main);
+    background: #d87c6c;
     color: white;
     border-radius: 4px;
 }
+
 
 main {
     width: 90%;
@@ -44,17 +41,18 @@ main {
 }
 
 h1, h2 {
-    color: var(--main);
+    color: #d87c6c;
 }
+
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 table th, table td {
-    border: 1px solid #ccc;
+    border: 10px solid #ccc;
     padding: 10px;
     text-align: center;
 }
@@ -65,6 +63,7 @@ table img {
     object-fit: cover;
     border-radius: 5px;
 }
+
 
 .order-form {
     max-width: 350px;
@@ -81,18 +80,20 @@ table img {
 }
 
 .order-form button {
-    background: var(--main);
+    background: #d87c6c;
     color: white;
     border: none;
     cursor: pointer;
 }
 
+
 footer {
-    background: var(--light);
+    background: #fff6f4;
     text-align: center;
     padding: 10px;
     margin-top: 30px;
 }
+
 
 .banner-small {
     background-image: url("../images/background.jpg");
@@ -102,7 +103,9 @@ footer {
     margin-bottom: 20px;
 }
 
+
 @media (max-width: 650px) {
+
     nav a {
         display: block;
         margin: 8px 0;
