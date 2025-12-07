@@ -11,8 +11,6 @@ h1, h2 {
     color: #244A73;
     text-align: center;
     margin-bottom: 15px;
-    letter-spacing: 1px;
-    font-weight: 600;
 }
 
 main {
@@ -20,11 +18,6 @@ main {
     max-width: 900px;
     margin: auto;
     padding: 20px 0;
-}
-
-section {
-    margin-bottom: 30px;
-    padding: 10px;
 }
 
 header {
@@ -60,18 +53,13 @@ nav a:hover {
     color: white;
 }
 
+
 img {
     max-width: 180px;
     height: auto;
     display: block;
     margin: 10px auto;
     border-radius: 5px;
-}}
-
-img:hover {
-    transform: scale(1.05);
-}
-
 }
 
 table img {
@@ -86,8 +74,6 @@ table {
     border-collapse: collapse;
     margin-top: 20px;
     background: white;
-    border-radius: 5px;
-    overflow: hidden;
 }
 
 table th {
@@ -134,10 +120,9 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: 30px;
-    border-top: 2px solid #4A90D9;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 650px) {}
     nav a {
         display: block;
         margin: 8px 0;
@@ -151,4 +136,3 @@ footer {
     main {
         width: 95%;
     }
-}
