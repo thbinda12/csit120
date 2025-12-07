@@ -1,60 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Times New Roman, sans-serif;
     margin: 0;
-    background: #ffffff;
-    color: #333;
+    background: #F2F2F2;
+    color: #244A73;
+    line-height: 1.6;
 }
 
-
-header {
-    background: #fff6f4;
-    padding: 15px;
+h1, h2 {
+    font-family: Verdana, Geneva, sans-serif;  
+    color: #244A73;
     text-align: center;
+    margin-bottom: 15px;
 }
-
-.logo {
-    width: 120px;
-    margin-bottom: 5px;
-}
-
-
-nav a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 10px;
-    padding: 6px 10px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    background: #d87c6c;
-    color: white;
-    border-radius: 4px;
-}
-
 
 main {
     width: 90%;
     max-width: 900px;
     margin: auto;
-    padding: 20px 10px;
+    padding: 20px 0;
 }
 
-h1, h2 {
-    color: #d87c6c;
-}
-
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-table th, table td {
-    border: 10px solid #ccc;
-    padding: 10px;
+header {
+    background: #9EDEC3;
+    padding: 15px 0;
     text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #244A73;
+    margin: 0 10px;
+    padding: 6px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background: #4A90D9;
+    color: white;
+}
+
+img {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
 }
 
 table img {
@@ -64,9 +68,28 @@ table img {
     border-radius: 5px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+table th {
+    background: #4A90D9;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
 
 .order-form {
     max-width: 350px;
+    margin: 20px auto;
 }
 
 .order-form input,
@@ -80,44 +103,36 @@ table img {
 }
 
 .order-form button {
-    background: #d87c6c;
-    color: white;
+    background: #F4C27A;
+    color: #244A73;
     border: none;
     cursor: pointer;
 }
 
+.order-form button:hover {
+    background: #4A90D9;
+    color: white;
+}
 
 footer {
-    background: #fff6f4;
+    background: #9EDEC3;
     text-align: center;
     padding: 10px;
     margin-top: 30px;
 }
 
-
-.banner-small {
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 120px;
-    margin-bottom: 20px;
-}
-
-
 @media (max-width: 650px) {
-
     nav a {
         display: block;
         margin: 8px 0;
     }
-
-    table img {
-        width: 65px;
-        height: 65px;
+    .logo {
+        max-width: 160px;
     }
-
+    img {
+        max-width: 140px;
+    }
     main {
         width: 95%;
     }
 }
-
