@@ -52,8 +52,14 @@ nav a:hover {
     background: #4A90D9;
     color: white;
 }
-
-img {
+.banner-small {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}img {
     max-width: 180px;
     height: auto;
     display: block;
